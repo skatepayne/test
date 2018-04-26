@@ -3,12 +3,19 @@
 <head>
 <title>jQuery</title>
 <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-<h1>sKatePayne's JavaScript and JQuery help site </h1>
- <a href="index.html">Home</a> &nbsp;
-	
+<div id="wrapper">
+<div id="header">
+<h1 class="header">sKatePayne's JavaScript and JQuery help site</h1>
+</div>
+
+<div id="nav">
+<nav>
+ <button class="navbutton"><a href="index.html">Home</a></button> &nbsp;
 <div class="dropdown">
   <button class="dropbtn"><a href="tutorials.html">Tutorials</a></button>
   <div class="dropdown-content">
@@ -16,13 +23,14 @@
     <a href="jquery.html">jQuery</a>
     <a href="resources.html">Resources</a>
   </div>
+</div> &nbsp;
+	<button class="navbutton"><a href="about.html">About</a></button> &nbsp;
+	<button class="navbutton"><a href="contact.html">Contact</a> </button>&nbsp;
+</nav>
 </div>
 
-	<a href="about.html">About</a> &nbsp;
-	<a href="contact.html">Contact</a> &nbsp;
-</nav>
-
 <main>
+<div id="content">
 <blockquote>jQuery is a lightweight, "write less, do more", JavaScript library.<br>
 The purpose of jQuery is to make it much easier to use JavaScript on your website.<br>
 jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
@@ -43,8 +51,11 @@ The jQuery library contains the following features:
 
 </main>
 
+<div id="footer">
 <footer>
 <p>&copy; 2018 sKatePayne</p>
 </footer>
+</div>
+</div>
 </body>
 </html>

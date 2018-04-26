@@ -3,14 +3,21 @@
 <head>
 <title>Contact</title>
 <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+
 <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
    	<script src="contact.js"></script>
 </head>
 
 <body>
-<h1>sKatePayne's JavaScript and JQuery help site </h1>
- <a href="index.html">Home</a> &nbsp;
-	
+<div id="wrapper">
+<div id="header">
+<h1 class="header">sKatePayne's JavaScript and JQuery help site</h1>
+</div>
+
+<div id="nav">
+<nav>
+ <button class="navbutton"><a href="index.html">Home</a></button> &nbsp;
 <div class="dropdown">
   <button class="dropbtn"><a href="tutorials.html">Tutorials</a></button>
   <div class="dropdown-content">
@@ -18,13 +25,14 @@
     <a href="jquery.html">jQuery</a>
     <a href="resources.html">Resources</a>
   </div>
+</div> &nbsp;
+	<button class="navbutton"><a href="about.html">About</a></button> &nbsp;
+	<button class="navbutton"><a href="contact.html">Contact</a> </button>&nbsp;
+</nav>
 </div>
 
-	<a href="about.html">About</a> &nbsp;
-	<a href="contact.html">Contact</a> &nbsp;
-</nav>
-
 <main>
+<div id="content">
 <h3>Send Us Your Comments</h3>
 <p>Required fields marked with an asterisk *</p>
 
@@ -51,9 +59,13 @@ min="1" max="10"><span>*</span><br>
   <input id="mySubmit" type="submit" value="Submit">
 </form>
 </main>
+
+<div id="footer">
 <footer>
 <p>&copy; 2018 sKatePayne</p>
 <p></p>
 </footer>
+</div>
+</div>
 </body>
 </html>
