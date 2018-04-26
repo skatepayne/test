@@ -3,12 +3,19 @@
 <head>
 <title>JavaScript</title>
 <meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-<h1>sKatePayne's JavaScript and JQuery help site </h1>
+<div id="wrapper">
+<div id="header">
+<h1 class="header">sKatePayne's JavaScript and JQuery help site</h1>
+</div>
+
+<div id="nav">
 <nav>
- <button><a href="index.html">Home</a></button> &nbsp;
+ <button class="navbutton"><a href="index.html">Home</a></button> &nbsp;
 <div class="dropdown">
   <button class="dropbtn"><a href="tutorials.html">Tutorials</a></button>
   <div class="dropdown-content">
@@ -17,10 +24,13 @@
     <a href="resources.html">Resources</a>
   </div>
 </div> &nbsp;
-	<button><a href="about.html">About</a></button> &nbsp;
-	<button><a href="contact.html">Contact</a> </button>&nbsp;
+	<button class="navbutton"><a href="about.html">About</a></button> &nbsp;
+	<button class="navbutton"><a href="contact.html">Contact</a> </button>&nbsp;
 </nav>
+</div>
+
 <main>
+<div id="content">
 <blockquote>JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. <br>
 While JavaScript is influenced by Java, the syntax is more similar to C and is based on ECMAScript, a scripting language developed by Sun Microsystems.<br>
 JavaScript is a client-side scripting language, which means the source code is processed by the client's web browser rather than on the web server. <br>
@@ -30,8 +40,11 @@ The JavaScript code can produce an error message before any information is actua
 <a href="https://techterms.com/definition/javascript">-Techterms definition of JavaScript</a> </blockquote>
 </main>
 
+<div id="footer">
 <footer>
 <p>&copy; 2018 sKatePayne</p>
 </footer>
+</div>
+</div>
 </body>
 </html>
